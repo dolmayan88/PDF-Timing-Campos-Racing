@@ -1,0 +1,10 @@
+cache-directory/
+__pycache__/
+testing.py
+venv
+*.pyc
+.DS_Store
+.env
+venv
+.idea
+herokuDB.txt

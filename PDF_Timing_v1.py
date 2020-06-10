@@ -154,19 +154,6 @@ app.layout = html.Div([
 ############## DASH CALLBACKS START #####################
 
 
-#THIS IS THE CALLBACK TO MANAGE THE AUTOMATIC DATABASE WRITING. if PDF Flag is zero,
-#then is taking the event from tracks and adding that event and session to the database
-#@app.callback(Output('output_power_button','children'),
-#    [Input('champ', 'value'),
-#    Input('Auto_Button', ''),
-#    Input('my_power_button','on'),
-#    Input('Action', 'value'),
-#    ])
-#
-#def Auto_Database_Writing(champ,auto_button_mode,power_button_mode,action,naming_convention):
-#    global entrylist_df,RaceSectorAnalysis_df,RaceHistoryChart_df,db_df    
-#    timing_filepath='C:/Users/Alvaro/Desktop/Git Repos/Timing PDF/OfficialTimingF1_PDF/'+champ
-
 def parse_contents(contents, filename, date):
     content_type, content_string = contents.split(',')
 
