@@ -32,6 +32,7 @@ import email
 from getpass import getpass
 from datetime import date
 import tkinter as tk
+tk.use('Agg')
 from tkinter import filedialog
 
 
