@@ -1,0 +1,5 @@
+Update_Query_UPDATE = "UPDATE `"+table+"` SET "
+Update_Query_1 = "`rawtiming_flag` = '1'"
+Upadate_Query_ID = " WHERE `"+table+"`.`AI` = "+str(df_calendar['AI'].values[item_min_ts])
+update_query = Update_Query_UPDATE+Update_Query_1+Upadate_Query_ID
+sql.execute(update_query,engine)
